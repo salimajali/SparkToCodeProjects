@@ -1,4 +1,5 @@
 <Solution>
   <Project Path="FirstCsharpProject/FirstCsharpProject.csproj" Id="f48e86fc-0f88-4e50-ad11-d5b46bf69b7f" />
+  <Project Path="ProgramSession2/ProgramSession2.csproj" Id="b12391c9-19eb-42b9-9296-9211da2709eb" />
   <Project Path="SecondCsharpProject/SecondCsharpProject.csproj" Id="23003363-f0bf-47e7-aa5f-71c095ab6a25" />
 </Solution>
