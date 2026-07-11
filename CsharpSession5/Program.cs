@@ -145,6 +145,55 @@
 					counter--; //decrement counter to avoid skipping the next element after removal
 				}
 			}
+
+			// Stack => LIFO: Last In, First Out
+
+			Stack<string> browserhistory = new Stack<string>();
+
+			browserhistory.Push("google.com");
+			browserhistory.Push("amazon.com");
+			browserhistory.Push("amazon.com/sell");
+
+			string result = browserhistory.Peek();
+
+			string result2 = browserhistory.Pop();
+
+			int stackLength = browserhistory.Count;
+
+
+			// Print all Stack elements
+
+			Console.WriteLine("Browser History:");
+
+			foreach (string url in browserhistory)
+			{
+				Console.WriteLine(url);
+			}
+
+
+			// Queue => FIFO: First In, First Out
+
+			Queue<int> customerNumber = new Queue<int>();
+
+			customerNumber.Enqueue(1);
+			customerNumber.Enqueue(2);
+			customerNumber.Enqueue(3);
+
+			int firstCustomer = customerNumber.Peek();
+
+			int firstCustomerRemoved = customerNumber.Dequeue();
+
+			int queueLength = customerNumber.Count;
+
+
+			// Print all Queue elements
+
+			Console.WriteLine("Customer Numbers:");
+
+			foreach (int number in customerNumber)
+			{
+				Console.WriteLine(number);
+			}
 		}
 	}
 }
