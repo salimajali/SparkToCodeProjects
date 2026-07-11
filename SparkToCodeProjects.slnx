@@ -1,6 +1,7 @@
 <Solution>
   <Project Path="CsharpFunctions/CsharpFunctions.csproj" Id="10219038-a6dc-41d0-ba1f-351df40ff86c" />
   <Project Path="CsharpSession2/CsharpSession2.csproj" Id="6acc1bf7-e557-4b40-b246-b3334c376da4" />
+  <Project Path="CsharpSession5/CsharpSession5.csproj" Id="aa0f5cd2-db09-4fca-ae36-119b3ae15f3c" />
   <Project Path="CsharpUserDefinedFunction/CsharpUserDefinedFunction.csproj" Id="1bca4e89-a4c7-4e91-8c9c-1c453ee24cb7" />
   <Project Path="FirstCsharpProject/FirstCsharpProject.csproj" Id="f48e86fc-0f88-4e50-ad11-d5b46bf69b7f" />
   <Project Path="ProgramSession2/ProgramSession2.csproj" Id="b12391c9-19eb-42b9-9296-9211da2709eb" />
